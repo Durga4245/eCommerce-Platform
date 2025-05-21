@@ -1,0 +1,13 @@
+.empty-star {
+  color: rgb(234, 227, 227);
+  /* border: 2px solid rgba(0, 0, 0, 0.2);  */
+  /* background-color: rgba(0, 0, 0, 0.05);  */
+ margin-left:3px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); */
+          
+}
+
+.bluestar{
+  color: #0967d2;
+  margin-left: 3px;
+}

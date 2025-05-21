@@ -1,0 +1,100 @@
+.homeContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .homeContainer {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 80px;
+      margin-top: 40px;
+    }
+  }
+  
+  .imgcon {
+    text-align: center;
+  }
+  
+  .homeImage {
+    height: 200px;
+    width: 200px;
+    align-self: center;
+  }
+  
+  .homeimgLg {
+    display: none;
+    width: 300px;
+    height: 300px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .homeImage {
+      display: none;
+    }
+  
+    .homeimgLg {
+      display: inline-block;
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  .homePageHeading {
+    color: #1e293b;
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .homePageDesc {
+    color: #64748b;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .homePageDesc {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  .btnCOn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .shopnowButton {
+    background-color: #0967d2;
+    width: 50%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .shopnowButton:hover{
+    background-color: rgb(70, 70, 241); 
+  transform: scale(1.05);
+}
+  
+  @media screen and (min-width: 768px) {
+    .wrapper {
+      align-self: flex-start;
+      max-width: 500px;
+    }
+  
+    .shopnowButton {
+      width: 200px;
+      font-size: 16px;
+    }
+  }
+  

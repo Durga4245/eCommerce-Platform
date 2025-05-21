@@ -1,0 +1,119 @@
+.HeaderContainer{
+    padding: 10px;
+    max-height: 72px;
+ 
+}
+
+ .HeaderContainerlg{
+        padding: 10px;
+        display: none;
+
+    }
+
+@media screen and (min-width:768px){
+    .HeaderContainer{
+        display: none;
+    }
+
+    .HeaderContainerlg{
+      
+        display: inline;
+
+    }
+}
+
+@media screen and (min-width:768px){
+    .navcontainerlg{
+        padding-left: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .logoutbutton{
+    background-color: rgb(67, 67, 245);
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 0px;
+    cursor: pointer;
+}
+.logoutbutton:hover{
+    background-color: rgb(70, 70, 241); 
+  transform: scale(1.05);
+}
+}
+
+
+
+.headerCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:768px){
+
+    .headerCard{
+         display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+        
+    }
+
+}
+
+.homeWebsitelogo{
+    height: 35px;
+    width: 150px;
+    margin-bottom: 14px;
+}
+
+.logoutlogo{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.NavIconsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+     background-color: #e6f6ff;
+     padding: 25px;
+}
+
+.homologo{
+    height: 40px;
+    width: 40px;
+}
+
+.productlogo{
+    height: 40px;
+    width: 40px;
+}
+
+.cartlogo{
+    height: 40px;
+    width: 40px;
+}
+
+.navHeadings{
+
+    text-decoration: none; /* remove underline */
+  color: inherit; /* inherit color from parent (e.g., black or whatever you set) */
+  display: block; /* makes the entire area clickable */
+  background-color: transparent;
+  color: darkblue;
+  
+}
+.navHeadings:hover{
+    transform: scale(1.09);
+}
+
+
+ 

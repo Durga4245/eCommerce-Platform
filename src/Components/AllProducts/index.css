@@ -1,0 +1,22 @@
+.bg-container{
+   padding: 0px;
+   height: calc(100vh-72px);
+
+}
+
+
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 60vh; 
+}
+.productsSections{
+    display: flex;
+    justify-content: space-between;
+    /* overflow: auto; */
+    height: 100vh;
+}
+

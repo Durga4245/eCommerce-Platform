@@ -1,0 +1,19 @@
+.bg_container{
+    padding: 25px;
+}
+
+.primeFailureContainer{
+    padding: 0px;
+}
+
+.register-prime-img{
+    width: 100%;
+}
+.primeProductsContainer{
+    padding-left: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}

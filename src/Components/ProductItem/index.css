@@ -1,0 +1,65 @@
+.productCard{
+    padding: 10px;
+   width: 100%;
+   margin-bottom: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+ 
+ .productCard:hover{
+    transform: scale(1.02);
+ }
+@media screen and (min-width:768px){
+    .productCard{
+         width: 26%;
+         /* margin: 10PX; */
+         
+
+    }
+}
+
+.productAvatar{
+    width: 100%; 
+   
+}
+@media screen and (min-width:768px){
+
+    .productAvatar{
+          width: 30%px; 
+    }
+}
+.style{
+    font-size: 16px;
+    /* min-height: 45px; */
+}
+.brand{
+    font-size: 14px;
+}
+
+.priceratingcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.ratingContainer{
+    background-color: #0967d2;
+    width: 50px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    /* padding: 1px; */
+    border-radius: 4px;
+
+}
+.rating{
+    color: white;
+}
+
+.product-link {
+  text-decoration: none; /* remove underline */
+  color: inherit; /* inherit color from parent (e.g., black or whatever you set) */
+  display: block; /* makes the entire area clickable */
+}
